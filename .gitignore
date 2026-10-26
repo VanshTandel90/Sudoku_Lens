@@ -1,0 +1,15 @@
+# Virtual environment (each machine creates its own)
+.venv/
+
+# Generated training images (recreated by the training script)
+data/generated/
+
+# Personal image drop folder (not part of the project)
+dummy_photos/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Streamlit local settings
+.streamlit/secrets.toml
